@@ -1,0 +1,321 @@
+
+@charset"utf-8";
+body {
+    font-family: 'Armata';
+	font-size: 15px;
+}
+
+/*Referenced by W3Schools.com*/
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.menu {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*slideshow*/
+* {box-sizing: border-box}
+body { margin:0}
+
+.mySlides {display:none ;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.gallery {
+  margin: 20px 20px 20px 20px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 22.1%;
+ 
+}
+
+.gallery:hover {
+ box-shadow: 5px 5px;
+
+}
+
+.gallery img {
+  width: 100%;
+  height: 215px;
+}
+
+.desc {
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gallery1 {
+  margin: 50px 50px 50px 50px;
+ 
+  float: left;
+  width: 42.5%;
+}
+
+
+.gallery1 img {
+  width: 100%;
+  height: 300px;
+}
+
+.btnbook
+{
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight : bold;
+	margin: 4px 2px;
+	float: right;
+}
+
+.btnbook:hover
+{
+	background-color: black;
+}
+
+
+form{max-width: 500px;
+padding: 10px 20px;
+background: #f4f7f8;
+margin: 10px auto;
+padding: 20px;
+background: #f4f7f8;
+border-radius: 8px;
+}
+
+.bookDetailsBtns
+{
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight : bold;
+	margin: 4px 2px;
+}
+
+.bookDetailsBtns:hover
+{
+	background-color: green;
+}
+
+
+form{	
+	max-width: 535px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+}
+
+.btninquire
+{
+	
+	background-color: #4CAF50;
+	border: none;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight : bold;
+	margin: 4px 2px;
+	float: right;
+}
+
+button a, .btninquire
+{
+	text-decoration: none;
+	color: black;
+}
+
+.btninquire:hover
+{
+	background-color: #519421
+}
+
+.accommodationtable
+{
+	border-color: #8978CF;
+	padding: 2px;
+}
+
+.campdescription
+{
+	font-size: 18px;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/*
+Referenced by https://get.foundation
+
+ footer*/
+.social-footer {
+  
+  padding: 1rem;
+  background: #d6d6c2;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+li {
+  float: left;
+}
