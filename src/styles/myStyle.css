@@ -1,0 +1,203 @@
+@charset"utf-8";
+
+body {
+font-family: 'Armata';
+font-size: 15px;
+}
+
+
+
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.menu {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+.social-footer {
+
+padding: 1rem;
+background: #d6d6c2;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-justify-content: space-between;
+-ms-flex-pack: justify;
+justify-content: space-between;
+}
+
+
+
+.social-footer .social-footer-icons li:last-of-type {
+margin-right: 0;
+}
+
+
+
+.social-footer .social-footer-icons .fa {
+font-size: 1.3rem;
+color: #fefefe;
+
+
+
+}
+
+
+
+.social-footer .social-footer-icons .fa:hover {
+color: #4a4a4a;
+transition: color 0.3s ease-in;
+}
+
+
+
+li {
+float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btnbook
+{
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight : bold;
+	margin: 4px 2px;
+	float: right;
+}
+
+#btnbook:hover
+{
+	background-color: black;
+}
+
+
+form{max-width: 500px;
+padding: 10px 20px;
+background: #f4f7f8;
+margin: 10px auto;
+padding: 20px;
+background: #f4f7f8;
+border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btninquire
+{
+	
+	background-color: #4CAF50;
+	border: none;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight : bold;
+	margin: 4px 2px;
+	float: right;
+}
+
+button a, .btninquire
+{
+	text-decoration: none;
+	color: black;
+}
+
+.btninquire:hover
+{
+	background-color: #519421
+}
+
+.accommodationtable
+{
+	border-color: #8978CF;
+	padding: 2px;
+}
+
+.campdescription
+{
+	font-size: 18px;
+}
