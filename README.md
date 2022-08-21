@@ -7,4 +7,4 @@
 
 ## Tools
 
-- XAMPP
+- XAMPP (with Apache and MySQL services)
